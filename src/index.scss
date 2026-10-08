@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+.maxw-1024 {
+    max-width: 1024px;
+}
+
+.card{
+    .btn {
+        &:not(:last-of-type) {
+            margin-right: 0.5rem; // Add spacing between buttons except the last one
+        }
+    }
+}
